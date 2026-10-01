@@ -43,6 +43,22 @@ Permite evaluar de forma dinámica el Top de clientes acumulados y el promedio d
 Explora la relación entre el precio promedio y el volumen de salida, contrastando el margen de utilidad real contra el ingreso bruto por producto.
 <img width="680" height="395" alt="image" src="https://github.com/user-attachments/assets/3fe84a80-e357-40a6-8fe0-17f0e4e491fe" />
 
+## 🚀 Generación Automatizada del Dataset (Python)
+Para facilitar la reproducibilidad de este entorno, se incluye un script en Python que genera de manera matemática la base de datos transaccional con la lógica exacta de CompuConnect.
+
+### Requisitos Previos
+Asegúrate de tener instalado Python y las librerías necesarias ejecutando en tu terminal:
+```bash
+pip install pandas openpyxl numpy
+```
+
+### Ejecución del Script
+Para recrear el archivo `Base de Datos.xlsx` en la carpeta `/data`, corre el siguiente comando desde la raíz del proyecto:
+```bash
+python generar_datos.py
+```
+*Nota: El script utiliza una semilla pseudoaleatoria fija (`seed=42`) para garantizar que la consistencia e integridad de los 100 registros coincida exactamente con las métricas presentadas en los Dashboards.*
+
 
 ## 🎓 Conclusiones del Proyecto
 * La estructuración de datos bajo un **modelo en estrella** simplifica la creación de relaciones eficientes 1:* hacia la tabla de hechos.
