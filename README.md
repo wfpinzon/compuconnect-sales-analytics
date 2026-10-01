@@ -1,7 +1,8 @@
 
 # Análisis de Ventas y Rentabilidad en CompuConnect 💻📊
 
-![Power BI](https://shields.io) ![Excel](https://shields.io) ![Python](https://shields.io)
+<img src="https://shields.io" alt="Power BI"> <img src="https://shields.io" alt="Excel"> <img src="https://shields.io" alt="Python">
+
 
 
 Este repositorio contiene el proyecto final desarrollado para la asignatura de **Seminario en Analítica y Big Data** en Bogotá D.C. El objetivo principal es transformar datos brutos de ventas en información estratégica para optimizar la toma de decisiones comerciales en la empresa ficticia **CompuConnect**, dedicada a la comercialización de accesorios para computadores.
